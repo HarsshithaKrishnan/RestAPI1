@@ -13,9 +13,9 @@ public class Travel {
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     long userId;
     String userName;
-    String emailAddress;
-    String password;
-    String confirmPassword;
+    String hotel;
+    String adventure;
+    String tickets;
     public long getUserId() {
         return userId;
     }
@@ -28,23 +28,23 @@ public class Travel {
     public void setUserName(String userName) {
         this.userName = userName;
     }
-    public String getEmailAddress() {
-        return emailAddress;
+    public String getHotel() {
+        return hotel;
     }
-    public void setEmailAddress(String emailAddress) {
-        this.emailAddress = emailAddress;
+    public void setHotel(String hotel) {
+        this.hotel = hotel;
     }
-    public String getPassword() {
-        return password;
+    public String getAdventure() {
+        return adventure;
     }
-    public void setPassword(String password) {
-        this.password = password;
+    public void setAdventure(String adventure) {
+        this.adventure = adventure;
     }
-    public String getConfirmPassword() {
-        return confirmPassword;
+    public String getTickets() {
+        return tickets;
     }
-    public void setConfirmPassword(String confirmPassword) {
-        this.confirmPassword = confirmPassword;
+    public void setTickets(String tickets) {
+        this.tickets = tickets;
     }
     
 }
